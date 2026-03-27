@@ -1,0 +1,986 @@
+/* ALL CSS RESPONSIVE FOR ALL DEVICE */
+
+/* responsive for device laptop and tab  */
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .menu-bar ul {
+      display: block !important;
+      width: 100% !important;
+      position: absolute !important;
+      top: -4px !important;
+      z-index: 11 !important;
+      background: rgb(255, 255, 255) !important;
+      padding: 0px 0px 25px !important;
+  }
+
+  .menu-bar {
+      width: 100% !important;
+      position: absolute !important;
+      top: 88px !important;
+      box-shadow: rgba(0, 33, 85, 0.1) 0px 5px 15px 0px !important;
+  }
+
+  .menu-bar ul li {
+      margin-top: 25px !important;
+      padding: 0px 25px !important;
+  }
+
+  .appointment {
+      position: absolute !important;
+      right: 0px !important;
+      bottom: 20px !important;
+      padding-right: 85px !important;
+  }
+
+  .three-dots {
+      margin-right: 15px !important;
+      z-index: 11 !important;
+      margin-top: -4px !important;
+      display: block !important;
+  }
+
+  .three-dots i {
+      width: 52px !important;
+      height: 52px !important;
+      font-size: 21px !important;
+      padding: 16px !important;
+      background: rgb(227, 34, 83) !important;
+      color: rgb(255, 255, 255) !important;
+  }
+
+  .three-dots button {
+      outline: none;
+      border: none;
+  }
+
+  .logo {
+      padding-left: 15px !important;
+      width: 170px !important;
+  }
+  nav.main-menu.sticky .logo{
+      margin-left: 0px !important;
+  }
+  
+ul.sub-menu {
+  left: 125px !important;
+  box-shadow: 0px 15px 27px #f006;
+  width: 335px !important;
+  overflow-x: scroll !important;
+  height: 300px !important;
+}
+
+ul.sub-menu li a {
+  width: 300px !important;
+}
+ul.sub-menu li {
+  margin-top: 10px !important;;
+}
+
+ul.right-sub-menu {
+  display: none !important;
+}
+.activeBar{
+  display: block !important;
+  transform-origin: top !important;
+  transition: 0.3s !important;
+}
+.menu-bars{
+  display: none;
+}
+.three-dots.activeBar{
+  margin-top: -4px !important;
+}
+
+.health-care-header {
+  padding-left: 35px !important;
+}
+.health-title h2 {
+  font-size: 40px !important;
+  line-height: 43px !important;
+}
+
+.about-inner {
+  display: inline-block !important;
+}
+.about-image {
+  width: 100% !important;;
+  padding: 0px 20px !important;;
+}
+.about-description {
+  width: 100% !important;
+  padding: 0px 20px !important;
+  margin-top: 30px !important;
+}
+.about-title span {
+  margin-bottom: 10px !important;
+}
+.about-title h3 {
+  font-size: 38px !important;
+}
+.about-item {
+  width: 620px !important;
+}
+
+.service-card-position {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  width: 100% !important;
+  justify-items: center;
+  margin: auto !important;
+  gap: 0px !important;
+}
+.service-card {
+  width: 95% !important;
+}
+.service-card:last-child {
+  margin-top: 23px !important;
+}
+
+.services-bg {
+  padding: 80px 0px 1000px !important;
+}
+
+section#about-us {
+padding-top: 75px !important;
+}
+.sec-title h2 {
+font-size: 40px !important;
+}
+.medical-icon-inner.medicated-gridFilter {
+width: 90% !important;
+margin: 30px auto !important;
+}
+
+.medicated-item img {
+width: 40px !important;
+}
+.medicated-item span {
+font-size: 17px !important;
+}
+
+.aboutus-reason-inner {
+display: inline-block !important;
+margin-top: 20px !important;
+}
+.aboutus-img {
+width: 100% !important;
+margin: auto !important;
+padding: 0px 20px;
+}
+.aboutus-description {
+width: 100% !important;
+padding: 0px 20px !important;
+margin-top: 25px !important;
+}
+.aboutus-description h2 {
+font-size: 35px !important;
+margin-bottom: 15px !important;
+}
+.aboutus-description p {
+margin-bottom: 20px !important;
+}
+
+.medicate-dc-inner {
+display: inline-block !important;
+width: 100% !important;
+}
+.medicated-overlay {
+width: 100% !important;
+}
+.medicate-image {
+width: 100% !important;
+margin-left: 0px !important;
+padding: 30px 20px !important;
+}
+.medicate-description {
+width: 100% !important;
+padding: 0px;
+margin: 0px 20px !important;
+}
+.medicate-text h2 {
+font-size: 40px !important;
+}
+.work-wrapper {
+width: 100% !important;
+margin: 50px auto !important;
+padding: 0px 40px !important;
+}
+.work-inner {
+width: 100% !important;
+}
+.work-image {
+width: 100% !important;
+}
+.work-item {
+width: 95% !important;
+margin: auto !important;
+}
+.work-member-inner {
+display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  justify-items: center !important;
+  gap: 50px 0px !important;
+}
+.member-overlay {
+padding: 40px 0 !important;
+bottom: -360px !important;;
+}
+
+.touch-inner {
+display: inline-block !important;
+width: 100% !important;
+}
+.touch-left {
+width: 100% !important;
+padding: 0px 30px !important;
+}
+section#touch {
+top: 325px !important;
+}
+.touch-sec-title h2 {
+font-size: 42px !important;
+}
+.touch-right {
+width: 95% !important;
+margin: auto !important;
+}
+
+section#our-clients {
+top: 295px !important;
+}
+
+.our-blog-inner {
+width: 100% !important;
+padding-left: 20px !important;
+margin-top: 60px !important;
+}
+
+.footer-subscribe-inner {
+display: inline-block !important;
+}
+.subscribe-letter {
+width: 100% !important;
+gap: 30px !important;
+align-items: initial !important;
+margin-bottom: 20px !important;
+}
+.subs-image {
+width: 55px !important;
+}
+.footer-subscribe {
+padding: 30px !important;
+width: 96% !important;
+margin: auto !important;
+}
+.subscribe-form {
+width: 100% !important;
+}
+.subscribe-form input {
+width: 80% !important;
+}
+
+.footer-top-inner {
+display: grid !important;
+grid-template-columns: repeat(2, 1fr);
+padding-left: 15px !important;
+}
+.footer-medicate {
+width: 100% !important;
+}
+.ft-course-inner {
+gap: 60px !important;
+width: 100% !important;
+margin-bottom: 35px !important;
+}
+.ft-posts-inner {
+width: 100% !important;
+}
+.ft-post-content h3 {
+width: 100% !important;
+}
+.ft-contact {
+width: 100% !important;
+margin-bottom: 80px !important;
+}
+/* loader spinners */
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('img/loader.png');
+  background-size: 30% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 1s, visibility 1s;
+  z-index: 11111;
+}
+.loader-hidden{
+  visibility: hidden;
+  opacity: 1;
+}
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  /* border: 15px solid #dddddd;
+  border-top-color: #7449f5; */
+  /* background-image: url('img/loader.png'); */
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+  form{
+      transform: rotate(0turn);
+  }
+  to{
+      transform: rotate(2turn);
+  }
+}
+}
+
+/* responsive for medium device */
+@media screen and (max-width: 768px) {
+  
+.appointment a {
+  display: none !important;
+}
+.menu-bar ul {
+  display: block !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: -8px !important;
+  z-index: 11 !important;
+  background: rgb(255, 255, 255) !important;
+  padding: 0px 0px 25px !important;
+}
+
+.menu-bar {
+  width: 100% !important;
+  position: absolute !important;
+  top: 88px !important;
+  box-shadow: rgba(0, 33, 85, 0.1) 0px 5px 15px 0px !important;
+}
+
+.menu-bar ul li {
+  margin-top: 25px !important;
+  padding: 0px 25px !important;
+}
+
+.appointment {
+  position: absolute !important;
+  right: 0px !important;
+  bottom: 20px !important;
+  padding-right: 85px !important;
+}
+
+.three-dots {
+  margin-right: 15px !important;
+  z-index: 11 !important;
+  margin-top: -4px !important;
+  display: block !important;
+}
+
+.three-dots i {
+  width: 52px !important;
+  height: 52px !important;
+  font-size: 21px !important;
+  padding: 16px !important;
+  background: rgb(227, 34, 83) !important;
+  color: rgb(255, 255, 255) !important;
+  transition: 0.3s !important;
+}
+
+.three-dots button {
+  outline: none;
+  border: none;
+}
+
+.appointment i {
+  margin-top: -50px !important;
+  cursor: pointer !important;
+}
+.three-dots i:hover {
+  background-color: #233848 !important;
+  cursor: pointer !important;
+}
+.logo {
+  padding-left: 15px !important;
+  width: 170px !important;
+}
+nav.main-menu.sticky .logo{
+  margin-left: 0px !important;
+}
+
+ul.sub-menu {
+left: 125px !important;
+box-shadow: 0px 15px 27px #f006;
+width: 335px !important;
+overflow-x: scroll !important;
+height: 300px !important;
+}
+
+ul.sub-menu li a {
+width: 300px !important;
+}
+ul.sub-menu li {
+margin-top: 10px !important;;
+}
+
+ul.right-sub-menu {
+display: none !important;
+}
+.activeBar{
+display: block !important;
+transform-origin: top !important;
+transition: 0.3s !important;
+}
+.menu-bars{
+display: none;
+}
+.three-dots.activeBar{
+margin-top: -4px !important;
+}
+
+.health-title span {
+  font-size: 13px !important;
+}
+.health-care-header {
+  padding-left: 30px !important;
+}
+.health-title h2 {
+  font-size: 40px !important;
+  width: 375px !important;
+  line-height: 48px !important;
+}
+.health-title p {
+  width: 435px !important;
+  font-size: 14px !important;
+  line-height: 23px !important;
+}
+
+.about-inner {
+  display: inline-block !important;
+}
+section#about {
+  padding: 60px 0px !important;
+}
+.about-image {
+  width: 96% !important;
+  margin: auto !important;
+}
+.about-title {
+  padding-left: 14px !important;
+  margin-top: 35px !important;
+}
+.about-title span {
+  margin-bottom: 15px !important;
+}
+.about-description {
+  width: 100% !important;
+}
+.about-title h3 {
+  font-size: 40px !important;
+  line-height: 44px !important;
+}
+.about-title p {
+  font-size: 17px !important;
+}
+.about-item {
+  padding-left: 14px !important;
+  display: inline-block !important;
+}
+.about-btn .appoint-btn {
+  margin-left: 14px !important;
+}
+
+.services-bg {
+  padding: 65px 0px 1370px !important;
+}
+.sec-title h2 {
+  font-size: 35px !important;
+  line-height: 50px !important;
+}
+.service-card-position {
+  display: inline-block !important;
+}
+.service-card {
+  width: 95% !important;
+  margin: 40px auto !important;
+}
+
+section#about-us {
+  padding-top: 60px !important;
+}
+.sec-title {
+  margin-bottom: 20px !important;
+}
+.medical-icon-inner {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  padding-left: 20px !important;;
+}
+.medicated-item a {
+  justify-content: initial !important;
+}
+
+.medicated-item img {
+  width: 35px !important;
+}
+.medicated-item span {
+  font-size: 15px !important;
+}
+.medicated-item {
+  margin-bottom: 20px !important;
+}
+
+.aboutus-reason-inner {
+  display: inline-block !important;
+}
+.aboutus-img {
+  width: 95% !important;
+  margin: auto !important;
+}
+.aboutus-description {
+  width: 100% !important;
+  padding-left: 15px !important;
+  margin-top: 25px !important;
+}
+.aboutus-description h2 {
+  font-size: 30px !important;
+  line-height: 40px !important;
+}
+.aboutus-description p {
+  margin-bottom: 20px !important;
+}
+
+.medicate-insurance {
+  padding: 100px 0px 100px !important;;
+}
+.healthy-title h3 {
+  font-size: 35px !important;
+  line-height: 40px !important;
+}
+.healthy-title {
+  width: 100% !important;
+  margin-top: 0px !important;
+}
+
+.medicate-dc-inner {
+  display: inline-block !important;
+  margin-top: 55px !important;
+  width: 100% !important;
+}
+.medicate-image {
+  width: 80% !important;
+  /*! margin-left: 0px !important; */
+  margin: auto !important;
+}
+.medicate-description {
+  padding-left: 20px !important;
+  margin-top: -40px !important;
+}
+.medicate-text {
+  width: 100% !important;
+}
+
+section#work {
+  padding: 80px 0px !important;
+}
+.work-item {
+  width: 90% !important;
+  margin: auto !important;
+}
+.work-image {
+  width: 100% !important;
+  /*! margin: auto !important; */
+}
+
+.work-member-inner {
+  display: grid !important;
+  justify-content: center !important;
+}
+.member-overlay {
+  padding: 50px 0px 100px !important;
+  bottom: -857px !important;
+}
+.membars-item {
+  border: none !important;
+  width: 100% !important;
+}
+.member-img {
+  margin-bottom: 13px !important;
+}
+
+.membars-item {
+  margin: auto !important;
+  text-align: center !important;;
+}
+.member-img {
+  margin: auto !important;
+}
+.member-num {
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+}
+
+section#touch {
+  top: 800px !important;
+}
+section#our-clients {
+  top: 800px !important;
+}
+.touch-inner {
+  display: inline-block !important;
+}
+.touch-left {
+  width: 100% !important;
+  padding-left: 20px !important;
+}
+.touch-sec-title h2 {
+  font-size: 40px !important;
+}
+.touch-item {
+  display: inline-block !important;
+  text-align: center !important;
+  margin: auto !important;
+}
+.touch-location-inner {
+  display: grid !important;
+  grid-template-columns: repeat(1, 1fr) !important;
+  justify-items: center !important;
+  align-content: center !important;
+}
+.touch-icon {
+  margin: auto !important;
+  margin-bottom: 25px !important;
+}
+.touch-location {
+  margin-bottom: 30px !important;
+}
+.touch-right {
+  width: 95% !important;
+  margin: auto !important;
+  padding: 20px 20px 20px !important;
+}
+.touch-right-item {
+  display: block !important;
+}
+
+section#our-blog {
+  top: 730px !important;
+}
+.testimonial-inner {
+  width: 100% !important;
+}
+.client-tes-img img {
+  width: 100px !important;;
+  height: 100px !important;;
+}
+.client-tes-content p {
+  font-size: 14px !important;
+  line-height: 28px !important;
+}
+#footer {
+  padding-top: 604px !important;
+}
+.our-blog-inner {
+  width: 90% !important;
+  margin: auto !important;
+}
+.our-blog-item {
+  margin-right: 0px !important;
+}
+
+
+.footer-subscribe-inner {
+  display: block !important;
+}
+.subs-image {
+  width: 60px !important;
+}
+.subscribe-letter {
+  gap: 25px !important;
+  width: 100% !important;
+  margin-bottom: 25px !important;
+}
+.subs-content h2 {
+  width: 100% !important;
+  font-size: 26px !important;
+}
+.footer-subscribe {
+  padding: 15px 15px;
+  width: 96% !important;
+  margin: auto !important;
+}
+.subscribe-form input {
+  width: 390px !important;
+}
+
+.footer-top-inner {
+  display: block !important;
+  padding-left: 15px !important;
+}
+.footer-medicate {
+  width: 100% !important;
+  margin-bottom: 35px !important;
+}
+.footer-medicate p {
+  width: 500px !important;
+  margin-top: 22px !important;
+}
+.ft-course-inner {
+  width: 100% !important;
+  gap: 60px !important;
+}
+.ft-recent-post {
+  margin-top: 25px !important;
+  margin-bottom: 145px !important;
+}
+.ft-post-content h3 {
+  width: 100% !important;
+}
+.ft-contact {
+  width: 100% !important;
+}
+/* loader spinners */
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('img/loader.png');
+  background-size: 40% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 1s, visibility 1s;
+  z-index: 11111;
+}
+.loader-hidden{
+  visibility: hidden;
+  opacity: 1;
+}
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  /* border: 15px solid #dddddd;
+  border-top-color: #7449f5; */
+  /* background-image: url('img/loader.png'); */
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+  form{
+      transform: rotate(0turn);
+  }
+  to{
+      transform: rotate(2turn);
+  }
+}
+}
+
+/* responsive for mobile device */
+@media screen and (max-width: 480px){
+
+  .about-image {
+    width: 100% !important;
+    margin: auto !important;
+    padding: 15px !important;
+  }
+  .about-inner {
+    display: block !important;
+  }
+  .bheader-img img {
+    height: 500px !important;
+  }
+  .health-title h2 {
+    width: 236px !important;
+    line-height: 40px !important;
+    font-size: 35px !important;
+  }
+  .health-title p {
+    width: 300px !important;
+  }
+  .about-title h3 {
+    font-size: 30px !important;
+    line-height: 37px !important;
+  }
+  .about-title p {
+    font-size: 14px !important;
+  }
+  .sec-title h2 {
+    font-size: 27px !important;
+    width: 225px !important;
+    margin: auto !important;
+    line-height: 35px !important;
+  }
+  .services-bg {
+    padding: 65px 0px 1545px !important;
+  }
+  .medical-icon-inner.medicated-gridFilter {
+    display: block !important;
+  }
+  .medicated-item {
+    margin-bottom: 30px !important;
+  }
+  .aboutus-description p {
+    width: 300px !important;
+  }
+  ul.reason-list li {
+    margin-bottom: 20px !important;
+  }
+  .healthy-title h3 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  
+.medicate-image {
+  width: 100% !important;
+  margin: auto !important;
+  padding: 15px !important;
+}
+.ovarlay {
+  display: block !important;
+  width: 100% !important;
+  margin: auto !important;
+}
+.medicate-description {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 10px 15px !important;
+}
+.medicate-text h2 {
+  font-size: 30px !important;
+  line-height: 38px !important;
+}
+.medicate-check {
+  width: 65% !important;
+  margin-right: 20px !important;
+}
+section#work {
+  padding: 60px 0px !important;
+}
+.work-inner {
+  margin-top: 30px !important;
+}
+.member-overlay {
+  padding: 50px 0px 5px !important;
+}
+.touch-sec-title span {
+  font-size: 13px !important;
+}
+.touch-sec-title h2 {
+  font-size: 30px !important;
+}
+.touch-sec-title p {
+  width: 300px !important;
+}
+.touch-location p {
+  font-size: 14px !important;
+}
+.touch-inner {
+  display: block !important;
+}
+section#our-clients {
+  top: 745px !important;
+}
+.blog-img {
+  height: 100% !important;
+}
+.blog-post-info {
+  width: 100% !important;
+}
+.our-blog-inner {
+  margin-top: 30px !important;
+}
+
+.subscribe-letter {
+  display: block !important;
+  text-align: center !important;
+}
+.subs-image {
+  margin: auto !important;
+  margin-bottom: 20px !important;
+}
+.subscribe-form button {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.subscribe-form input {
+  width: 100% !important;
+  margin-bottom: 25px !important;
+}
+.footer-subscribe {
+  padding: 45px 25px !important;
+}
+.footer-medicate p {
+  width: 285px !important;
+}
+.ft-course-inner {
+  display: block !important;
+}
+
+.clip video {
+  width: 90% !important;
+}
+
+.footer-subscribe {
+  top: 50px !important;
+}
+.footer-top-inner {
+  padding: 105px 0px 65px !important;
+}
+section#our-blog {
+  top: 690px !important;
+}
+/* loader spinners */
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('img/loader.png');
+  background-size: 60% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 1s, visibility 1s;
+  z-index: 11111;
+}
+.loader-hidden{
+  visibility: hidden;
+  opacity: 1;
+}
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  /* border: 15px solid #dddddd;
+  border-top-color: #7449f5; */
+  /* background-image: url('img/loader.png'); */
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+  form{
+      transform: rotate(0turn);
+  }
+  to{
+      transform: rotate(2turn);
+  }
+}
+}
